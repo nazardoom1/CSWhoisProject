@@ -1,11 +1,7 @@
 #!/usr/bin/env bash
-
-
-
 ## author: Mikhail Kost
 ## version: 0.1.4.1
 ## This script contains details in order to make the communication in Flock easier.
-
 ##
 # Color  Variables
 ##
@@ -13,11 +9,9 @@ green='\e[32m'
 blue='\e[94m'
 red='\e[31m'
 clear='\e[0m'
-
 ##
 # Color Functions
 ##
-
 ColorGreen(){
 	echo -ne $green$1$clear
 }
@@ -27,16 +21,13 @@ ColorBlue(){
 ColorRed(){
 	echo -ne $red$1$clear
 }
-
 ##
 # Default variables
 ##
-
 defvalue="..."
 domain="..."
 chat="..."
 username="..."
-
 ##
 # Functions
 ##
